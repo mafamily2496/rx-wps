@@ -1,0 +1,38 @@
+<prescriptions xmlns="http://greenify.github.io/schemas/prescription/v2">
+	<prescription type="service" sender="any" package="cn.wps.moffice_eng" class="cn.wps.moffice.backup.BackupService">
+ 	</prescription>
+	<prescription type="service" sender="any" package="cn.wps.moffice_eng" class="cn.wps.moffice.main.cloud.storage.core.service.CSService">
+ 	</prescription>
+	<prescription type="service" sender="any" package="cn.wps.moffice_eng" class="cn.wps.moffice.service.CrashLogSenderService">
+ 	</prescription>
+	<prescription type="service" sender="any" package="cn.wps.moffice_eng" class="cn.wps.moffice.common.download.extlibs.service.DownloadService">
+ 	</prescription>
+	<prescription type="service" sender="any" package="cn.wps.moffice_eng" class="cn.wps.moffice.feedback.upload.FeedbackSenderService">
+ 	</prescription>
+	<prescription type="service" sender="any" package="cn.wps.moffice_eng" class="cn.wps.moffice.main.HWQuickActionService">
+ 	</prescription>
+	<prescription type="service" sender="any" package="cn.wps.moffice_eng" class="cn.wps.moffice.service.impl.MOfficeService">
+ 	</prescription>
+	<prescription type="service" sender="any" package="cn.wps.moffice_eng" class="cn.wps.moffice.service.MOfficeSyncService">
+ 	</prescription>
+	<prescription type="service" sender="any" package="cn.wps.moffice_eng" class="cn.wps.moffice.main.push.service.PusherService">
+ 	</prescription>
+	<prescription type="service" sender="any" package="cn.wps.moffice_eng" class="cn.wps.moffice.main.scan.util.camera.ScanService">
+ 	</prescription>
+	<prescription type="service" sender="any" package="cn.wps.moffice_eng" class="cn.wps.moffice.main.scan.util.camera.ScanService$GrayInnerService">
+ 	</prescription>
+	<prescription type="service" sender="any" package="cn.wps.moffice_eng" class="cn.wps.moffice.main.cloud.roaming.service.WPSQingService">
+ 	</prescription>
+	<prescription type="service" sender="any" package="cn.wps.moffice_eng" class="cn.wps.moffice.service.WakeService">
+ 	</prescription>
+	<prescription type="broadcast" sender="any" package="cn.wps.moffice_eng" class="cn.wps.moffice.main.membershipshell.AppRegister">
+ 	</prescription>
+	<prescription type="broadcast" sender="any" package="cn.wps.moffice_eng" class="cn.wps.moffice.service.receivers.MonitorServiceReceiver">
+ 	</prescription>
+	<prescription type="broadcast" sender="any" package="cn.wps.moffice_eng" class="cn.wps.moffice.main.shortcut.fastaccess.mute.MuteReceiver">
+ 	</prescription>
+	<prescription type="broadcast" sender="any" package="cn.wps.moffice_eng" class="cn.wps.moffice.main.push.util.PushPenetrateMsgReceiver">
+ 	</prescription>
+	<prescription type="broadcast" sender="any" package="cn.wps.moffice_eng" class="cn.wps.moffice.main.push.interstitial.SelfReceiver">
+ 	</prescription>
+</prescriptions>
